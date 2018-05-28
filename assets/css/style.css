@@ -14,13 +14,13 @@ body {
     flex: 1 0 auto;
 }
 
-.navbar, .navbar-expand-lg, .navbar-light, .bg-light{
+.navbar, .navbar-expand-lg, .navbar-light, .bg-light {
     padding-top: 0%;
     padding-bottom: 0%;
     /* style="padding-top: 0%; padding-bottom: 0%" */
 }
 
-.navbar-brand {
+.navbar-light .navbar-brand {
     /* style="color: #ffffff; background-color: #4aaaa5; font-family: 'Georgia', Times, Times New Roman, serif; padding: 1%; font-size: 24px" */
     color: #ffffff;
     background-color: #4aaaa5; 
@@ -57,3 +57,21 @@ footer {
     flex-shrink: 0;
 }
 
+.btn, .btn-primary {
+    background-color: #4aaaa5;
+    border: none;
+}
+
+.thumbnail {
+    margin-bottom: 10%;
+    margin-right: 10%;
+    position: relative;
+}
+
+.post-content {
+    width: 100%;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    position: absolute;
+    top: 60%;
+}
